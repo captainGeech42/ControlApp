@@ -89,5 +89,33 @@
             </objects>
             <point key="canvasLocation" x="-79.710144927536234" y="138.58695652173915"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="zd2-rs-Sfd">
+            <objects>
+                <tableViewController id="qe9-1O-pHj" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="51" sectionHeaderHeight="28" sectionFooterHeight="28" id="HEC-4M-8oq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="MzI-pO-3Hn" customClass="ProcessListTableViewCell">
+                                <rect key="frame" x="0.0" y="28" width="414" height="68"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MzI-pO-3Hn" id="YO6-9w-9vd">
+                                    <frame key="frameInset" width="414" height="68"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qe9-1O-pHj" id="NhE-Fv-zUF"/>
+                            <outlet property="delegate" destination="qe9-1O-pHj" id="Mc7-3N-DRC"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JQm-4Q-K2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686" y="138"/>
+        </scene>
     </scenes>
 </document>
