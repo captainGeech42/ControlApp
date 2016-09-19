@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					CE64A7B61D8F86AA002A562C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7ACN9Z3PXB;
 						ProvisioningStyle = Automatic;
 					};
 					CE64A7CA1D8F86AA002A562C = {
@@ -410,7 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ACN9Z3PXB;
 				INFOPLIST_FILE = Control/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zanderwork.Control;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ACN9Z3PXB;
 				INFOPLIST_FILE = Control/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zanderwork.Control;
 				PRODUCT_NAME = "$(TARGET_NAME)";
