@@ -20,6 +20,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func processListTapped(_ sender: UIButton) {
+    }
 
+    @IBAction func sleepTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func shutdownTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func rebootTapped(_ sender: UIButton) {
+    }
 }
 
