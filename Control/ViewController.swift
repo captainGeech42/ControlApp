@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SocketIOKit
 
 class ViewController: UIViewController {
     
