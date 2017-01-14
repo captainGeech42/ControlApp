@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import SocketIOKit
 
 class ViewController: UIViewController {
+    
+    //let socket = SocketIOClient(socketURL: URL(string: "http://10.0.0.57:12345")!, config: [.log(true), .forcePolling(true)])
 
     override func viewDidLoad() {
         super.viewDidLoad()

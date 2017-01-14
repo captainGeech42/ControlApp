@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3859361D98C01000AB05BF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE3859351D98C01000AB05BF /* Podfile */; };
 		CE64A7BB1D8F86AA002A562C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64A7BA1D8F86AA002A562C /* AppDelegate.swift */; };
 		CE64A7BD1D8F86AA002A562C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64A7BC1D8F86AA002A562C /* ViewController.swift */; };
 		CE64A7C01D8F86AA002A562C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE64A7BE1D8F86AA002A562C /* Main.storyboard */; };
@@ -14,7 +15,7 @@
 		CE64A7C51D8F86AA002A562C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE64A7C31D8F86AA002A562C /* LaunchScreen.storyboard */; };
 		CE64A7D01D8F86AA002A562C /* ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64A7CF1D8F86AA002A562C /* ControlTests.swift */; };
 		CE64A7DB1D8F86AA002A562C /* ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64A7DA1D8F86AA002A562C /* ControlUITests.swift */; };
-		CE64A7E91D8FB44E002A562C /* ProcessListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64A7E81D8FB44E002A562C /* ProcessListTableViewCell.swift */; };
+		CEFE085C1D98B1CD00155267 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = CEFE085B1D98B1CD00155267 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3859351D98C01000AB05BF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		CE64A7B71D8F86AA002A562C /* Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Control.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE64A7BA1D8F86AA002A562C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE64A7BC1D8F86AA002A562C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +50,7 @@
 		CE64A7D61D8F86AA002A562C /* ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE64A7DA1D8F86AA002A562C /* ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlUITests.swift; sourceTree = "<group>"; };
 		CE64A7DC1D8F86AA002A562C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE64A7E81D8FB44E002A562C /* ProcessListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessListTableViewCell.swift; sourceTree = "<group>"; };
+		CEFE085B1D98B1CD00155267 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CE64A7AE1D8F86AA002A562C = {
 			isa = PBXGroup;
 			children = (
+				CE3859351D98C01000AB05BF /* Podfile */,
 				CE64A7B91D8F86AA002A562C /* Control */,
 				CE64A7CE1D8F86AA002A562C /* ControlTests */,
 				CE64A7D91D8F86AA002A562C /* ControlUITests */,
@@ -102,10 +105,10 @@
 				CE64A7BA1D8F86AA002A562C /* AppDelegate.swift */,
 				CE64A7BC1D8F86AA002A562C /* ViewController.swift */,
 				CE64A7BE1D8F86AA002A562C /* Main.storyboard */,
-				CE64A7E81D8FB44E002A562C /* ProcessListTableViewCell.swift */,
 				CE64A7C11D8F86AA002A562C /* Assets.xcassets */,
 				CE64A7C31D8F86AA002A562C /* LaunchScreen.storyboard */,
 				CE64A7C61D8F86AA002A562C /* Info.plist */,
+				CEFE085B1D98B1CD00155267 /* Cartfile */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -236,8 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3859361D98C01000AB05BF /* Podfile in Resources */,
 				CE64A7C51D8F86AA002A562C /* LaunchScreen.storyboard in Resources */,
 				CE64A7C21D8F86AA002A562C /* Assets.xcassets in Resources */,
+				CEFE085C1D98B1CD00155267 /* Cartfile in Resources */,
 				CE64A7C01D8F86AA002A562C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +270,6 @@
 			files = (
 				CE64A7BD1D8F86AA002A562C /* ViewController.swift in Sources */,
 				CE64A7BB1D8F86AA002A562C /* AppDelegate.swift in Sources */,
-				CE64A7E91D8FB44E002A562C /* ProcessListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +422,6 @@
 				DEVELOPMENT_TEAM = 7ACN9Z3PXB;
 				INFOPLIST_FILE = Control/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zanderwork.Control;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -432,7 +435,6 @@
 				DEVELOPMENT_TEAM = 7ACN9Z3PXB;
 				INFOPLIST_FILE = Control/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zanderwork.Control;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -512,6 +514,7 @@
 				CE64A7E11D8F86AA002A562C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE64A7E21D8F86AA002A562C /* Build configuration list for PBXNativeTarget "ControlTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +523,7 @@
 				CE64A7E41D8F86AA002A562C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE64A7E51D8F86AA002A562C /* Build configuration list for PBXNativeTarget "ControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +532,7 @@
 				CE64A7E71D8F86AA002A562C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
