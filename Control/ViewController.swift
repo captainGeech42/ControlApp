@@ -11,6 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     
     //let socket = SocketIOClient(socketURL: URL(string: "http://10.0.0.57:12345")!, config: [.log(true), .forcePolling(true)])
+	
+	let host = "10.0.0.57"
+	let port = 12345
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +30,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sleepTapped(_ sender: UIButton) {
+//		var socket :NSHost = NSHost(address: host)
+//		var
     }
     
     @IBAction func shutdownTapped(_ sender: UIButton) {
